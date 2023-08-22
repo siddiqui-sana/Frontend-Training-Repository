@@ -1,0 +1,39 @@
+<html>
+    <body>
+        <script>
+            //weakly typed
+            //Variable declaration are optional
+            //Best Pracitce: "use-strict" i.e. declare the variable becomes mandatory, otherwise will throw error.
+            "use strict";
+            var a=10
+            a='test'
+            a=true
+            a={}
+            a=[]
+            //Global Scope
+            //Function Scope
+            //Using var makes it problem in managing scope
+            // for(var i=0;i<10;i++){
+            //     setTimeout(function(){
+            //         console.log("task",i);
+            //     },
+            //     1000*i)
+            // }
+            //let: block scope vriable.{}: This is a block. A new memeory is created in each iteration
+            for(let i=0;i<10;i++){
+                setTimeout(function(){
+                    console.log("task",i);
+                },
+                1000*i)
+            }
+            //Use let instead of var but this leads to inefficient memory usgae
+            // const i=10;
+            // console.log(i)
+            // i=20
+            // console.log(i)
+            const obj ={name:"sana",age: 23};
+            console.log(obj.name)
+
+        </script>
+    </body>
+</html>
