@@ -1,0 +1,15 @@
+<script>
+    // to access the current object instance : this
+    const user = {
+      name: "john",
+      age: 12,
+      greeting: function () {
+        setTimeout(function () {
+          console.log("hello from", this.name);
+        }, 1000);
+      },
+    };
+    user.greeting();
+    user.name = "demo";
+    user.greeting();
+  </script>

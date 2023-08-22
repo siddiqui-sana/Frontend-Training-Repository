@@ -1,0 +1,15 @@
+<body>
+    <script>
+        function addStorage() {
+            const data={name:'Mike',age:12};
+            //local storage will persist the data for as long as we want
+            //session storage will persist the data as long as the browser is open
+            sessionStorage.setItem("data",JSON.stringify(data));
+        }
+        function retrieveStorage() {
+            let data =localStorage.getItem("data");
+            data = JSON.parse(data);
+            console.log(data)
+        }
+    </script>
+</body>

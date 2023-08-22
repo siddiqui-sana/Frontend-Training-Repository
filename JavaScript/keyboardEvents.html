@@ -1,0 +1,35 @@
+<!-- <body>
+    <input
+      type="text"
+      onkeypress="testFunction()"
+      onkeydown="testFunction()"
+      onkeyup="testFunction()"
+    />
+    <input id="txt" onekeypress="restrictText()"/>
+    <script>
+      function testFunction() {
+        console.log(event.type);
+      }
+    </script>
+  </body> -->
+
+  <body>
+    <input
+      type="text"
+      onkeypress="testFunction()"
+      onkeydown="testFunction()"
+      onkeyup="testFunction()"
+    />
+    <input id="txt" onekeypress="restrictText()"/>
+    <script>
+        function restrictText(){
+            if(event.keyCode < 48 || event.keyCode > 57) {
+                event.preventDefault();
+            }
+        }
+      function testFunction() {
+        console.log(event);
+      }
+    </script>
+  </body>
+  

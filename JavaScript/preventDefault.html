@@ -1,0 +1,13 @@
+<body>
+    <a href = "https://google.com" onCLick = "someFunc()">Google.com</a>
+    <script>
+        function someFunc()
+        {
+           event.preventDefault(); //Cancels the default behaviour of the event
+           console.log("test event");
+           setTimeout(function () {
+            console.log("Hello")},1000
+           );
+        }
+    </script>
+</body>
