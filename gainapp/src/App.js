@@ -6,20 +6,8 @@ function App() {
     <div classNmae="App">
       <h3>Assignment 1</h3>
       <Counter>
-
       </Counter>
       <header classNmae="App-header">
-      {/* <img src={logo} className="App-logo" alt="logo" /> */}
-      {/* <p> */}
-      {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        > */}
-          {/* Learn react
-          </a>
-      </p> */}
       </header>
       {/* <Login>
 

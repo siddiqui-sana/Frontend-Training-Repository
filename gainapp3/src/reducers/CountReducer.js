@@ -1,11 +1,11 @@
 const initialState = {count:0};
 const CountReducer = (state=initialState, action) =>{
     if(action.type==='increase'){
-        let newState = {...state, count:state.count+1}
+        let newState = {...state, count:state.count+action.payload};
         return newState;
     }
     if(action.type==='decrease'){
-        let newState = {...state, count:state.count-1}
+        let newState = {...state, count:state.count-action.payload};
         return newState;
     }
     if(action.type==='reset'){

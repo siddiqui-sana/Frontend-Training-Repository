@@ -1,10 +1,15 @@
 import EmployeeApp from './EmployeeApp/EmployeeApp';
+import ReduxTodo from './ReduxTodo';
+import ReduxEmployeeApp from './ReduxEmployeeApp';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <EmployeeApp></EmployeeApp>
+        {/* <ReduxTodo></ReduxTodo> */}
+        <ReduxEmployeeApp/>
+        {/* <ReduxCounter></ReduxCounter> */}
+        {/* <EmployeeApp></EmployeeApp> */}
       </header>
     </div>
   );

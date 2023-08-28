@@ -1,14 +1,21 @@
 import { useDispatch, useSelector } from "react-redux";
+import {increase, decrease} from "./actions/counteractions";
+import {add, del} from "./actions/todoactions";
+
 const ReduxCounter = () => {
   const dispatch = useDispatch();
+  let step = 4;
   const [count] = useSelector((state) => {
-    return [state.count];
+    console.log(state);
+    return [state.counter.count];
   });
   const increaseCount = () => {
-    dispatch({ type: "increase" });
+    console.log(increaseCount);
+    dispatch(increase(step));
   };
   const decreaseCount = () => {
-    dispatch({ type: "decrease" });
+    console.log(decreaseCount);
+    dispatch(decrease(step));
   };
   const resetCount = () => {
     dispatch({ type: "reset" });

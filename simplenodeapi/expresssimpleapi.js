@@ -44,6 +44,7 @@ app.post("/todos", function (request, response) {
 	let { name, status } = request.body;
 	let todosOb = { name: name, status: status };
 	todos.push(todosOb);
+	console.log(todos)
 	response.json({ status: 1, msg: "operation to add todo is complete" });
 });
 
@@ -51,12 +52,14 @@ app.get("/todoform", function (request, response) {
 	let completePath = path.join(__dirname + "/todoform.html");
 	response.sendFile(completePath);
 });
-app.get("/todos/delete/:id", function (request, response) {
+app.delete("/todos/:id", function (request, response) {
 	let newTodos = todos.filter((val, index) => {
 		if (index == request.params.id) return false;
 		return true;
 	});
 	todos = [...newTodos];
+	console.log("deleted");
+	response.json({ status: 1, msg: "operation delete  is complete" });
 });
 server.listen(3001);
 console.log("simple api is running now!it doesnt need any backend");
