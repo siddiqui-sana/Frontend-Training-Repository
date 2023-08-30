@@ -13,6 +13,9 @@ const Todo = () => {
   ]);
   useEffect(() => {
     getData();
+    // const destructorFunction = ()=> {
+    //   alert("Do you want to leave the page?");
+    // }
   }, []);
   useEffect(() => {
     console.log("useEffect is fired!");
