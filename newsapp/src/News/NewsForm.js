@@ -6,10 +6,6 @@ const NewsForm = ({ addNews }) => {
         <input type="text" name="city"></input>
         <input type="text" name="news"></input>
         <input type="text" name="description"></input>
-        {/* <select name="status">
-          <option value="complete">Complete</option>
-          <option value="Incomplete">Incomplete</option>
-        </select> */}
         <Button variant="contained" class="add" type="submit">
           Add
         </Button>
