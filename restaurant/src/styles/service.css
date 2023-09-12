@@ -1,0 +1,20 @@
+.service{
+    padding: 30px;
+}
+.service-container{
+    border-left: 70px solid #d7ebf1; /* Red left border */
+  border-right: 70px solid #d7ebf1; /* Green right border */
+  background-color: rgb(223, 223, 223); /* Blue fill color */
+  padding: 20px;
+  margin:0;
+}
+.h4{
+    margin-top: 80px;
+    text-align: center;
+    color: goldenrod;
+    font-family: cursive;
+}
+.h1{
+    text-align: center;
+    color:rgb(32, 19, 44);
+}

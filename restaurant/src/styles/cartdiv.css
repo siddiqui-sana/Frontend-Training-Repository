@@ -1,0 +1,83 @@
+/* .cartdiv{
+    margin-top: 20rem;
+    margin-left: 50rem;
+    } */
+.cartdivtop{
+    margin-top: 10rem;
+    margin-left: 40rem;
+}
+.cartdivtop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cartdiv {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cartdiv button {
+    background-color: #c96124;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cartdiv button:hover {
+    background-color: #ff341a;
+  }
+  
+  p {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  button#orderButton {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button#orderButton:hover {
+    background-color: #45a049;
+  }
+  
+  h2#orderPlaced {
+    color: #4caf50;
+    margin-top: 20px;
+    display: none;
+  }
+
+.order-btn{
+    background-color: goldenrod; /* Set the background color to the desired solid color */
+    color: #fff; /* Set the text color to contrast with the background */
+    border: none; /* Remove the border to create a solid appearance */
+    padding: 10px 20px; /* Add padding for better readability and appearance */
+    cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+   
+}
+.order-h{
+    color: green;
+}
+.menu-bg{
+  border-left: 70px solid #d7ebf1; /* Red left border */
+  border-right: 70px solid #d7ebf1; /* Green right border */
+  background-color: rgb(223, 223, 223); /* Blue fill color */
+}

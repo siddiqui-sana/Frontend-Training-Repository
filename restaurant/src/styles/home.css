@@ -1,0 +1,42 @@
+.layout{
+    display: flex;
+  
+}
+.home{
+    padding: 100px;
+}
+.home1{
+    margin-top: 20rem;
+    height: 100vh;
+    width: 50%;
+    margin-left: 5px;
+    display: inline-block;
+
+}
+.home2{
+    background: url('/public/images/Banner.webp');
+    float: right;
+    height: 50vh;
+    width: 45%;
+    margin-top: 200px;
+    margin-right: 10px;
+    /* display: inline-block; */
+  }
+
+.headingEnjoy{
+    color: whitesmoke;
+    font-family: 'Circular', sans-serif;
+    font-size: 60px;
+}
+
+.para{
+    color: white;
+}
+
+.contained-button {
+    background-color: goldenrod; /* Set the background color to the desired solid color */
+    color: #fff; /* Set the text color to contrast with the background */
+    border: none; /* Remove the border to create a solid appearance */
+    padding: 10px 20px; /* Add padding for better readability and appearance */
+    cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+}

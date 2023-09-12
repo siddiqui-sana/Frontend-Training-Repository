@@ -1,0 +1,26 @@
+.navigation-menu{
+    list-style: None;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li{
+    margin: 0px 20px;
+}
+
+.navigation-menu li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.book_table_btn{
+    background-color: goldenrod; /* Set the background color to the desired solid color */
+    color: #fff; /* Set the text color to contrast with the background */
+    border: none; /* Remove the border to create a solid appearance */
+    padding: 10px 20px; /* Add padding for better readability and appearance */
+    cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+}
+.active{
+    color: rgb(234, 204, 127) !important;
+}

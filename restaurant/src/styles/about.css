@@ -1,0 +1,37 @@
+.about1{
+  margin-top: 200px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img1,.img2,.img3,.img4{
+  flex: 0 0 auto;
+  width: 50%;
+  display: inline-block;
+  padding: 10px;
+}
+.ig1,.ig2,.ig3,.ig4{
+  width:100%;
+  height:auto;
+  object-fit: cover;
+  overflow: hidden;
+}
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 100px;
+  border: 2px solid white;
+}  
+.contained{
+  background-color: goldenrod; /* Set the background color to the desired solid color */
+    color: #fff; /* Set the text color to contrast with the background */
+    border: none; /* Remove the border to create a solid appearance */
+    padding: 10px 20px; /* Add padding for better readability and appearance */
+    cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+}
+.h10{
+  color: goldenrod;
+  font-family: cursive;
+}

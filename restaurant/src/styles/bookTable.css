@@ -1,0 +1,79 @@
+.container{
+  margin-top: 15rem;
+  width: 100%;
+  height: 100%;
+  border-top: 10px solid rgb(28, 4, 48);
+  border-left: 50px solid rgb(224, 232, 236);
+  border-right: 50px solid rgb(224, 232, 236) ;
+  border-bottom: 10px solid rgb(28, 4, 48); 
+
+  content: "";
+  display: table;
+  clear: both;
+}
+.video{
+  width: 50%; /* Adjust width as needed to control the side-by-side layout */
+  float: left;
+  display:block ;
+  height: 50vh;
+  text-align: center;
+  padding: 5%;
+
+}
+.bookatable{
+  width: 50%; /* Adjust width as needed to control the side-by-side layout */
+  float: left;
+  height: 50vh;
+  background-color: rgb(28, 4, 48);
+}
+.heading-rsv{
+  color: goldenrod;
+  font-size: medium;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-family: cursive;
+}
+.form{
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.h2{
+  margin-left: 30px;
+  color: white;
+
+}
+.outlined{
+  background-color: goldenrod; /* Set the background color to the desired solid color */
+    color: #fff; /* Set the text color to contrast with the background */
+    border: none; /* Remove the border to create a solid appearance */
+    padding: 10px 20px; /* Add padding for better readability and appearance */
+    cursor: pointer; /* Change the cursor to a pointer on hover (optional) */
+    margin-left: 20rem;
+}
+.stylish-input {
+  width: 50%;
+  padding: 20px;
+  border: 2px solid #ccc; /* Border color */
+  font-size: 16px;
+  background-color: #f4f4f4; /* Background color */
+  color: #8d8d8d; /* Text color */
+  transition: border-color 0.3s ease
+}
+.stylish-input1 {
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #ccc; /* Border color */
+  font-size: 16px;
+  background-color: #f4f4f4; /* Background color */
+  color: #8d8d8d; /* Text color */
+  transition: border-color 0.3s ease
+}
+
+.stylish-input:focus {
+  border-color: goldenrod; /* Border color on focus */
+  outline: none; /* Remove default focus outline */
+}
+.stylish-input1:focus {
+  border-color: goldenrod; /* Border color on focus */
+  outline: none; /* Remove default focus outline */
+}
